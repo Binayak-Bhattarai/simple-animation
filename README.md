@@ -1,4 +1,4 @@
-
+https://binayak-bhattarai.github.io/simple-animation/
 # ✨ My First GSAP Project
 
 A simple project using [GSAP](https://gsap.com/) to learn basic animations.
