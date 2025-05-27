@@ -31,11 +31,22 @@ tl.from("#footer h3", {
     duration: 0.8
 })
 
+
+
 function showSidebar(){
     const sidebar= document.querySelector('#fake-nav')
     sidebar.style.display="flex"
+    gsap.from("#fake-nav h3", {
+    y: -50,
+    opacity: 0,
+    delay: 0.3,
+    stagger: 0.3,
+    duration: 0.7
+})
 }
+
 function closeSidebar(){
     const sidebar= document.querySelector('#fake-nav')
     sidebar.style.display="none"
+
 }
