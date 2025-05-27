@@ -30,3 +30,12 @@ tl.from("#footer h3", {
     stagger: 0.4,
     duration: 0.8
 })
+
+function showSidebar(){
+    const sidebar= document.querySelector('#fake-nav')
+    sidebar.style.display="flex"
+}
+function closeSidebar(){
+    const sidebar= document.querySelector('#fake-nav')
+    sidebar.style.display="none"
+}
