@@ -39,8 +39,8 @@ function showSidebar(){
     gsap.from("#fake-nav h3", {
     y: -50,
     opacity: 0,
-    delay: 0.3,
-    stagger: 0.3,
+    delay: 0.2,
+    stagger: 0.2,
     duration: 0.7
 })
 }
